@@ -16,3 +16,6 @@ Useful Google links to getting started on the application:
 https://cloud.google.com/natural-language/automl/docs/quickstart?authuser=1
 - This walks through a sentient analysis, which is most likely what the project will focus on
 - Use the above walk through with a twitter csv with tweets that were pulled to train the model
+
+For every new terminal run:
+export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
