@@ -11,3 +11,8 @@ https://developer.twitter.com/en/docs/tutorials/step-by-step-guide-to-making-you
 https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
 https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-all
 https://developer.twitter.com/en/docs/twitter-api/early-access
+
+Useful Google links to getting started on the application: 
+https://cloud.google.com/natural-language/automl/docs/quickstart?authuser=1
+- This walks through a sentient analysis, which is most likely what the project will focus on
+- Use the above walk through with a twitter csv with tweets that were pulled to train the model
