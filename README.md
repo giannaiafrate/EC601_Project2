@@ -2,20 +2,18 @@
 Project 2 is on analyzing twitter feeds
 
 The first phase is testing out the twitter API and understanding how to pull various data.
+The second phase is testing out the Google NLP API. 
 
-The Twitter step-by-step walks through how to do this in json on the command line. However, I will be performing this project on python by running it on Spyder launched through Anaconda. Therefore, the first step of this project will be figuring out how to properly set the token and pull various links on Twitter. 
+My original user story was pulling tweets from a certain time frame on the TV show, Big Brother, which had its finale last week.
+I wanted to see if, based on what people tweeted, I could accurately figure out who America's Favorite Houseguest is and compare it to the actual results.
+However, the standard track does not allow for archive tweets and start/end dates.
 
-Working through issues still with trying to retrieve data by using my created project. Useful links I found: 
-https://developer.twitter.com/en/docs/tutorials/analyze-past-conversations
-https://developer.twitter.com/en/docs/tutorials/step-by-step-guide-to-making-your-first-request-to-the-twitter-api-v2
-https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
-https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-all
-https://developer.twitter.com/en/docs/twitter-api/early-access
+My final user story is gathering MLB data and performing a sentiment analysis on data pulled for each team to see which teams have the best feedback, and if it lines up to the current MLB rankings (i.e., the teams playing the best have the happiest fan base). 
 
-Useful Google links to getting started on the application: 
-https://cloud.google.com/natural-language/automl/docs/quickstart?authuser=1
-- This walks through a sentient analysis, which is most likely what the project will focus on
-- Use the above walk through with a twitter csv with tweets that were pulled to train the model
+To perform this, I used Twitter API and pulled 2 sets of data 2 times for each team:
+1. Data with the team name in a tweet
+2. Data with the MLB 2021 team Hashtag
 
-For every new terminal run:
-export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
+I performed this twice at two different periods of time to get a large group of data.
+
+I then performed a sentiment analysis on each tweet and stored the results in a csv file. The analysis is averaged across each team and the teams are sorted from best sentiment score to worst. 
