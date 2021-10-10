@@ -14,6 +14,8 @@ To perform this, I used Twitter API and pulled 2 sets of data 2 times for each t
 1. Data with the team name in a tweet
 2. Data with the MLB 2021 team Hashtag
 
-I performed this twice at two different periods of time to get a large group of data.
-
-I then performed a sentiment analysis on each tweet and stored the results in a csv file. The analysis is averaged across each team and the teams are sorted from best sentiment score to worst. 
+Guidance to the files in the folder:
+EC601_Project2_Iafrate.ppt: Powerpoint documentation of project goals, description, method, results, and conclusion
+MLB_SentimentResults.xlsx: The Excel sheet with the results and comparison is listed in 
+mlb_search.py: Python file for pulling tweets
+mlb_predict.py: Python file for performing Google sentiment analysis
