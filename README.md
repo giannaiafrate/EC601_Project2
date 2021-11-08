@@ -1,4 +1,6 @@
 # EC601_Project2
+_Please note that project 3 unittest is located at https://github.com/giannaiafrate/EC601_Project3_
+
 Project 2 is on analyzing twitter feeds
 
 The first phase is testing out the twitter API and understanding how to pull various data.
